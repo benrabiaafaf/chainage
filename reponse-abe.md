@@ -15,7 +15,7 @@ Donc on enlève les ',' à la fin des ligne
 grep "_from" node_modules/**/package.json | cut -d ':' -f3 | sed s/','// | sort -u
 Voir la partie Resultat 2
 # Resultat 1
-490 lignes
+490 lignes  
  "acorn@6.0.4"
  "acorn-jsx@5.0.1"
  "ajv@6.6.2"
@@ -507,7 +507,8 @@ Voir la partie Resultat 2
  "yn@3.1.1"
  "yoga-layout-prebuilt@1.9.3",
 # Resultat 2
-446 lignes "acorn@6.0.4"
+446 lignes  
+ "acorn@6.0.4"
  "acorn-jsx@5.0.1"
  "ajv@6.6.2"
  "ansicolors@0.3.2"
